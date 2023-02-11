@@ -21,7 +21,10 @@ public class StreamBuilderTest{
         builder.reverse();
         System.out.println(builder);
 
-        builder.insert(4, "Hola");
+         builder.reverse();
+        //"Java"
+        builder.insert(3, "Hola");
         System.out.println(builder);
+
     }
 }
